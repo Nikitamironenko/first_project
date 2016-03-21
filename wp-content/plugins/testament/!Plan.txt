@@ -1,0 +1,10 @@
+
+1. Оптимизация DB
+2. Чистка DB.
+
+
+define('YADISK_FILES_PLUGIN','wp-yadisk-files');
+define('YADISK_FILES_APPPATH',dirname(__FILE__));
+include_once(YADISK_FILES_APPPATH.'/libraries/functions.php');
+include_once(YADISK_FILES_APPPATH.'/libraries/download_helper.php');
+include_once(YADISK_FILES_APPPATH.'/assets.php');
